@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+p{
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.hello{
+    font-weight: 700px;
+    text-shadow: 5px 5px 5px yellowgreen;
+}
+
+.a{
+    text-shadow: 3px 3px 5px red;
+}
+
+.b{
+    color: white;
+    text-shadow: 0px 0px 5px darkblue;
+}
+.c{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+.d{
+    color: yellow;
+    text-shadow: 2px 2px 2px black, 
+                 0 0 25px blue, 
+                 0 0 5px darkblue;
+    }
+.e{
+    color : white;
+    Text-shadow: 0px 0px 3px darkblue;
+}
+.f{
+    color: gray;
+    text-shadow: 0px 0px 3px darkmagenta;
+}
+.g{
+    color: white;
+    text-shadow: 2px 2px 3px darkgray;
+}
+.h{
+    color: white;
+    text-shadow: 2px 2px 2px red,
+                 0px 0px 30px black,
+                 0px 0px 5px darkblue;
+}

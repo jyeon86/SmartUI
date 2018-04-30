@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*https://accounts.google.com/signup/v2/webcreateaccount?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default&flowName=GlifWebSignIn&flowEntry=SignUp*/
+.out-box{
+    width: 750px;
+    height: 550px;
+    /*
+    margin-top: 50px;
+    margin-left: calc(50% - 375px);
+    */
+    margin: 50px 0px 0px calc(50% - 375px);
+    border-style: solid;
+    border-color: #EBE9E9;
+    border-width: 1px;
+    box-shadow: 0 0 5px gray;
+}
+.in-box{
+    padding: 48px 40px 36px 40px;
+    width: 670px;
+    height: 464px;
+}
+.inner-box{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 464px;
+}
+.left-box{
+    display: inline-block;
+    width: 370px;
+    height: 464px;
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0;
+}
+.right-box{
+    display: inline-block;
+    width: 280px;
+    height: 464px;
+    border-color: blue;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0;
+}
+.name{
+    display: inline-block;
+}
+
+/*오른쪽*/
+#rightlogo{
+    margin-top: 16%;
+    margin-bottom: 0px;
+    display: block;
+    text-align: center;
+}
+
+#rightcomment{
+    display: block;
+    text-align: center;
+}
+
