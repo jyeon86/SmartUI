@@ -1,0 +1,75 @@
+@charset "utf-8";
+.animation{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    animation-name: textColor;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+.Size{animation-name: Size;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes textColor{
+    0%{
+        color: red;
+    }
+    25%{
+        color: yellow;
+    }
+    50%{
+        color: green;
+    }
+    75%{
+        color: darkblue;
+    }
+    100%{
+        color: violet;
+    }
+}
+
+@keyframes Size{
+    0%{
+        font-size: 500%;
+    }
+    
+    50%{
+        font-size: 100%;
+    }
+
+    100%{
+        font-size: 500%;
+    }
+}
+.fail-box{
+    text-align: center;
+    height: 200px;
+
+}
+.image{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://i.ytimg.com/vi/dHmyY0iX0ww/hqdefault.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    animation-name: imageChange;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imageChange{
+    33%{
+        background-image: url("https://i.ytimg.com/vi/dHmyY0iX0ww/hqdefault.jpg");
+    }
+    66%{
+        background-image: url("https://pbs.twimg.com/profile_images/635150602478030848/M9jimJ1w_400x400.jpg");
+    }
+    100%{
+        background-image: url("https://i.ytimg.com/vi/dHmyY0iX0ww/hqdefault.jpg");
+    }
+}

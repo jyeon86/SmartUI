@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+ul>li{
+    display: inline-block;
+    width: calc(25% - 5px);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: blanchedalmond;
+
+    
+
+}
+nav{
+    background-color: whitesmoke;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: darkgoldenrod;
+    font-size: 15px;
+}
