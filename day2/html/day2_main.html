@@ -5,31 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>2회차 학습내용</title>
+    <link rel="stylesheet" href="/study.css">
+    <link rel="stylesheet" href="../css/day2_main.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <!--네비게이션바-->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="/day6/html/iframe_ex.html">smartWab&contents</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="#" id="top">회차별 학습내용</a></li>
+        <li><a href="#">1일차</a></li>
+        <li class="dropdown"><a class="" href="../../day2/html/day2_main.html">2일차</a></li>
+        <li class="dropdown"><a class="" href="../../day3/html/day3_main.html">3일차</a></li>
+        <li class="dropdown"><a class="" href="../../day4/html/day4_main.html">4일차</a></li>
+        <li class="dropdown"><a class="" href="../../day5/html/day5_main.html">5일차</a></li>
+        <li class="dropdown"><a class="" href="../../day6/html/day6_main.html">6일차</a></li>
+    </ul>
+    </div>
+</nav>
 <div>
     <p>학습내용</p>
-    <ul>
-            <li>
-                <a href="#">
-                    기본 css 내용 학습
-                </a>
-            </li>
-            <li>
-                <a href="login2.html">
-                    구글 검색
-                </a>
-            </li>
-            <li>
-                <a href="login.html">
-                    구글 로그인
-                </a>
-            </li>
+    <hr>
+    <ul class="list-group">
+            
+        <a href="#ist"><li class="list-group-item">기본 css 내용 학습</li>
+            </a>
+
+        
+            <a href="#2nd"><li class="list-group-item">구글 검색</li>
+            </a>
+         
+        
+            <a href="#3rd"><li class="list-group-item">구글 로그인</li>
+            </a>
     </ul>
-<a href="../../study.html">뒤로가기</a>
+</div>
+<hr>
+<h3> <i id="ist" class="glyphicon glyphicon-link"></i>
+       기본예제  
+       <a href="#top"><button class="btn btn-default"><i class="glyphicon glyphicon-arrow-up"></i></button>
+    </h3></a> 
+<div>
+        <iframe src="../../day2/html/login.html" width="100%" frameborder="0"></iframe>
+</div>
+<h3> <i id="2nd" class="glyphicon glyphicon-link"></i>
+    구글 검색 <a href="#top"><button class="btn btn-default"><i class="glyphicon glyphicon-arrow-up"></i></button>
+</h3></a> 
+<div>
+     <iframe src="../../day2/html/search.html" width="100%" frameborder="0"></iframe>
+</div>
+<h3> <i id="3rd" class="glyphicon glyphicon-link"></i>
+    구글 로그인  <a href="#top"><button class="btn btn-default"><i class="glyphicon glyphicon-arrow-up"></i></button>
+</h3></a> 
+<div>
+     <iframe src="../../day2/html/login2.html" width="100%" frameborder="0"></iframe>
+</div>
+
+
+        
+<div>
+    <a href="../../day6/html/yeje2.html"><h3><i class="glyphicon glyphicon-chevron-left"></i>뒤로가기</a></h3>
 
 </div>
 
-    
+
 </body>
 </html>
