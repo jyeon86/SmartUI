@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> 네이버 메인 구현하기</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/navermain.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    
+  </head>
+  <body>
+ 
+
+    
+  <!-- 네비게이션-->
+  <nav class="navbar navbar-expand-md bg-light navbar-fixed-top container bold">
+    <div>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" >메일</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">카페</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">블로그</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+      <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              더보기
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+          </li>
+    </ul></div>
+  </nav><!--네비게이션end-->
+  <!--본문시작-->
+  <div class="container">
+
+  <div class="row">
+      <!--좌측-->
+     
+    <div class="col-8 box-line" id="ex-top">
+      <img src="https://ps.w.org/adrotate/assets/banner-772x250.jpg?rev=1691423" width="448" id="banner">
+    </div>
+    <!--우측-->
+    <div class="col-4 box-line">
+        <div class="row">
+            <div>
+            <form action="/action_page.php">
+              <div class="form-group">
+                 <input type="email" class="form-control" id="email" placeholder="아이디" name="email">
+                 <input type="password" class="form-control" id="pwd" placeholder="비밀번호" name="pswd">
+                </div>
+              </div>
+                             
+              <div><button type="submit" class="btn btn-success">로그인</button>
+              </div>
+        </div>
+
+
+              <div class="form-group form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember"> 로그인 상태 유지
+                </label>
+              </div></div>
+    </div>
+  <div class="row">
+    <!--좌측-->
+    <div class="col-8 box-line">
+      <div class="col-12 box-line2" id="ex-body">연합뉴스 <i class="fas fa-angle-right"></i> <span class="font-gray">'내 보상액은 얼마?'</span>
+      </div>
+      <div class="col-12 box-line2" id="ex-foot">
+          <div class="col-12 box-line2" id="ex-stand">뉴스스탠드 <i class="fas fa-angle-right"></i> <span class="font-gray">전체언론사</span>&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp; MY뉴스</div>
+          <div class="row">          
+            <div class="logos" >띠요옹?</div>
+            <div class="logos" >띠요옹?</div>
+            <div class="logos" >띠요옹?</div>
+            <div class="logos" >띠요옹?</div>
+          </div>
+          <div class="row">
+            <div class="logos" >띠요옹?</div>
+            <div class="logos" >띠요옹?</div>
+            <div class="logos" >띠요옹?</div>
+            <div class="logos" >띠요옹?</div>
+          </div>
+
+      </div>
+    </div>
+    <!--우측-->
+    <div class="col-4 box-line">
+      <div class="col-12 box-line2">3</div>
+      <div class="col-12 box-line2">3</div>
+    
+    </div>
+
+  </div>
+  <!--본문 끝-->
+
+
+</div></div>
+  </body>
+  </html>
+  

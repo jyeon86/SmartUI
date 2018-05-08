@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+hr{
+    border-width: 4px;
+}
+.list-group-item>a{
+    color: black;
+    
+}
+a:hover{
+    text-decoration:none;
+}
+a>li:hover{
+    text-decoration:none;
+    text-decoration-line: none;
+    font-size:16px;
+    font-weight: 600;
+    background-color: rgba(228, 244, 253, 0.836);
+}

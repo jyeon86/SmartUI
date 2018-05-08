@@ -1,0 +1,120 @@
+@charset "utf-8";
+body{
+    background-color: gainsboro;
+}
+div.container{
+    padding: 0 0 0 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: brown;   
+    background-color:;
+    
+}
+
+.col-8.box-line{
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(15, 128, 163);    }
+.col-4.box-line{
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(163, 15, 126);   }
+.col-12.box-line2{
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(118, 165, 42);   
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: rgba(8, 187, 8, 0.808);
+    width: 800;
+}
+
+.nav-link:visited{
+    color:rgba(8, 187, 8, 0.808);
+}
+.nav-link:hover{
+    color: rgba(8, 187, 8, 0.808);
+}
+div.row{
+    margin:0;
+    padding:0;
+}
+#ex-top{
+    height:100px;
+}
+#banner{
+    height: 100px;
+    width: auto;
+    
+}
+#ex-body{
+    width:738px;
+    height: 44px;
+    size: 14px;
+    weight: 800;
+    text-align: none;
+    padding: 7px 0 0 10px;
+
+}
+#ex-foot{
+
+}
+.font-gray{
+    color:gray;
+    size:13px;
+}
+#ex-stand{
+    width:738px;
+    height: 44px;
+    size: 14px;
+    weight: 800;
+    text-align: none;
+    padding: 7px 0 0 10px;
+    margin:3px 0 0 0;
+}
+
+/*부트스트랩md크기*/
+@media (min-width: 576px) {
+    #banner {
+      width: 355px;
+
+
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #banner {
+        width: 475px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #banner {
+        width: 635px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    #banner {
+      max-width: 840spx;
+    }
+  }
+  div.logos{
+      width: 117px;
+      height: 67px;
+      background-color: darkseagreen;
+      border-style: solid;
+      border-width: 1px;
+      border-color: gray;
+      margin: 0 0 0 0;
+      padding-top: 11px;
+      font-size:24px;
+      text-align: center;
+
+  }
