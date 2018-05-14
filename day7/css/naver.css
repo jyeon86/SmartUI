@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+body{
+    background-color: gray;
+}
+.container{
+    padding: 0;
+}
+.navbar-light .navbar-nav .font-green,
+.navbar-light .navbar-nav .font-green:hover,
+.navbar-light .navbar-nav .font-green:visited,
+.navbar-light .navbar-nav .font-green:active {
+    color: green;
+    font-weight: bold;
+    padding-left: 0px;
+}
+.navbar-light .navbar-nav .font-black{
+    color: black;
+    font-weight: bold;
+    padding-left: 0px;
+}
+.box-left{
+    margin: 10px 0px 0px 0px;
+    padding: 0 5px 0 0;
+}
+.box-right{
+    margin: 10px 0px 0px 0px;
+    padding: 0 0 0 5px;
+}
+.banner{
+    background: white;
+    height: 80px;
+}
+.login{
+    background: white;
+    height: 80px;
+}
+.news{
+    background: white;
+    height: 30px;
+}
+.news-stand{
+    margin-top: 10px;
+    background: white;
+    height: 400px;
+}
+.sports{
+    background: white;
+    height: 200px;
+}
+.ad{
+    margin-top: 10px;
+    background: white;
+    height: 230px;
+}
+.row{
+    margin: 0;
+}
+
+.banner-img {
+    width: 635px;
+    height: 80px;
+}
+  
+@media (min-width: 576px) {
+    .banner-img {
+        width: 355px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 768px) {
+    .banner-img {
+        width: 475px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .banner-img {
+        width: 635px;
+        height: 80px;   
+    }
+}
+
+@media (min-width: 1200px) {
+    .banner-img {
+        width: 635px;
+        height: 80px;
+    }
+}

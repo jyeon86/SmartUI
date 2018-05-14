@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+/* 클래스 css */
+.container{
+    max-width: 1100px;
+    padding : 0 10px 10px 10px;
+}
+.container .row{
+    margin-top: 10px;
+}
+.container .row .login{
+    margin-top: 0px;
+}
+.navbar .container{
+    max-width: 1100px;
+}
+.navbar .navbar-nav .nav-item-green{
+    color: #00c73c;
+    font-weight: bold;
+}
+.navbar .navbar-nav .nav-item-black{
+    color: black;
+    font-weight: bold;
+}
+.row{
+    margin : 0px;
+}
+.left-box{
+    width: 745px;
+    padding-right: 5px;
+}
+.right-box{
+    width: 335px;
+    padding-left: 5px;
+}
+.input-info{
+    width: 148px;
+    height: 68px;
+    margin: 20px 0 0 15px;
+}
+.btn-login{
+    width: 67px;
+    height: 67px;
+    margin: 20px 0 0 0;
+    background-color:#00c73c; 
+    font-size: 12px;
+    color: white;
+    font-weight: 900;
+}
+.security{
+    width: 77px;
+    height: 68px;
+    margin: 20px 0 0 5px;
+    font-size: 11px;
+    color: #888;
+}
+.login{
+    background-color: white;
+    height: 120px;
+    border: solid 1px #dee3eb;
+}
+.text-login{
+    margin-top: 26px;
+    text-align: center;
+}
+.input-login{
+    width: 148px;
+    height: 34px;
+    font-size: 12px;
+    
+}
+.input-pw{
+    margin-top: -1px;
+    width: 148px;
+    height: 34px;
+    font-size: 12px;
+}
+.btn-tmp-login{
+    margin-top: -1px;
+    width: 77px;
+    height: 33px;
+    color: #888;
+    background-color: white;
+    border: solid #f1f3f6 1px;
+}
+.btn-ip{
+    width: 77px;
+    height: 33px;
+    color: #888;
+    background-color: white;
+    border: solid #f1f3f6 1px;
+    
+}
+
+.news{
+    width: 740px;
+    height: 46px;
+    background-color: white;
+    border: solid 1px #dee3eb;
+    padding: 10px 0 0 16px;
+}
+.news-stand{
+    width: 740px;
+    height: 246px;
+    background-color: white;
+    border: solid 1px #dee3eb;
+    margin-top:10px;
+}
+
+.news h3{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+.news p{
+    display: inline-block;
+}
+.news-detail{
+    font-size: 12px;
+    color: black;
+}
+.news-detail:hover{
+    color: black;
+}
+.lt{
+    color: gray;
+    font-size: 17px;
+}
+.lt:hover{
+    color: gray;
+    text-decoration: none;
+}
+.news-font-green{
+    font-size: 13px;
+    font-weight: bold;
+    color: #00c73c;
+    margin: 0 2px 0 2px;
+}
+.news-font-green:hover{
+    text-decoration: none;
+    color: #00a74c;
+}
+.news-font-gray{
+    font-size: 13px;
+    font-weight: bold;
+    color: #666;
+    margin: 0 2px 0 2px;
+}
+.news-font-gray:hover{
+    text-decoration: none;
+    color: black;
+}
+.naver-tag{
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+}
+.info{
+    height: 142px;
+    background-color: white;
+    border: solid 1px #dee3eb;
+}
+.add{
+    margin-top: 10px;
+    height: 150px;
+    background-color: white;
+    border: solid 1px #dee3eb;
+}
+
+/* 태그 css */
+body{
+    background-color: #f2f4f7;
+}
+button{
+    padding: 0px;
+}
