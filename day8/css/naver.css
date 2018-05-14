@@ -107,7 +107,8 @@
     margin-top:10px;
 }
 
-.news h3{
+.news h3,
+.news-stand h3 {
     display: inline-block;
     font-size: 14px;
     font-weight: bold;
@@ -155,6 +156,24 @@
     float: right;
     margin-right: 15px;
 }
+.news-stand-headline{
+    height:45px;
+    border: solid 1px #faf3f6;
+    padding: 10px 0 0 16px;
+}
+.news-stand-kind{
+    height:200px;
+    border: solid 1px #faf3f6;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.news-stand-text{
+    color: black;
+}
+.news-stand-text:hover{
+    color: black;
+}
 .info{
     height: 142px;
     background-color: white;
@@ -164,9 +183,105 @@
     margin-top: 10px;
     height: 150px;
     background-color: white;
-    border: solid 1px #dee3eb;
+    border: none;
+}
+.bar{
+    color: lightgray;
+    font-size: 16px;
+    margin: 0 5px 0 5px;
+}
+.font-14{
+    font-size: 14px;
+}
+.container .kind-row{
+    height:67px;
+    margin:0;
+}
+.kind-col{
+    width:123px; 
+    border: solid 1px #faf3f6;
+    padding: 21px 0  22px 0;
+    text-align: center;
+}
+.date{
+    height:34px;
+    border: solid 1px #faf3f6;
+}
+.stock{
+    height:105px;
+    border: solid 1px #faf3f6;
+}
+.date h3{
+    display: inline-block;
+}
+.date-detail{
+    font-size: 14px;
+    color: black;
+    margin: 0 0 0 15px
+    
+}
+.date-week{
+    font-size: 14px;
+    color: black;
+}
+.etc{
+    font-size: 14px;
+    color: #888;
+}
+.kospi{
+    display: inline-block;
+    width: 153px;
+    height: 73px;
+    padding: 16px 0 8px 15px
+}
+.kospi:hover{
+    text-decoration: none;
 }
 
+.kosdak{
+    display: inline-block;
+    width: 153px;
+    height: 73px;
+    padding: 16px 0 8px 9px;
+}
+.kosdak:hover{
+    text-decoration: none;
+}
+dt{
+    font-size: 12px;
+    color: #888;
+}
+dd{
+    font-weight: 700;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+}
+dd:hover{
+    text-decoration: underline;
+}
+.dd-detail{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 31px;
+    color: rgb(19, 108, 209);
+}
+.dd-detail:hover{
+    text-decoration: none;
+}
+.stock-search{
+    height:30px;
+}
+.input-stock-search{
+    height: 20px;
+    width: 150px;
+    margin: 0 0 0 45%;
+    border: solid 1px skyblue;
+}
+a.btn{
+    background-color:none ;
+     margin: 0 0 0 45%;
+}
 /* 태그 css */
 body{
     background-color: #f2f4f7;
