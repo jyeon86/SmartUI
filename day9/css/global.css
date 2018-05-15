@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/* global */
+
+.line-box{
+    border: solid black 1px;
+
+}
+
+
+
+/* login.html*/
+
+.login-box{
+    margin-top: 200px;
+    padding-top: 30px;
+}
+.login-text{
+    margin-top: 20px;
+}
+.btn-login{
+    margin-bottom: 30px;
+}
+.hoveri:hover{
+    text-decoration-style: none;
+    text-decoration-line: none;
+  
+}
